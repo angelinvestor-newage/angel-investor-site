@@ -13,6 +13,28 @@
       padding: 0;
       text-align: center;
     }
+    /* Believe ad container */
+    #believeAd {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      text-align: center;
+      z-index: 20;
+    }
+    #believeAd img {
+      width: 60px;
+      height: auto;
+      display: block;
+      margin-bottom: 4px;
+      border: 1px solid #16a34a;
+      border-radius: 4px;
+    }
+    #believeAd a {
+      color: #0ff;
+      text-decoration: none;
+      font-size: 0.9em;
+      display: block;
+    }
     h1 {
       font-size: 6vw;
       margin-top: 2em;
@@ -27,12 +49,6 @@
     }
     section {
       margin: 6em 0;
-    }
-    footer {
-      font-size: 1.5em;
-      padding: 4em;
-      background-color: #111;
-      color: #888;
     }
     .button-that-does-nothing {
       font-size: 2em;
@@ -53,9 +69,23 @@
       height: 48px;
       filter: brightness(1.2);
     }
+    footer {
+      font-size: 1.5em;
+      padding: 4em;
+      background-color: #111;
+      color: #888;
+    }
   </style>
 </head>
 <body>
+  <!-- Believe ad in top-right -->
+  <div id="believeAd">
+    <a href="https://believe.app/coin/BQRN5Jp1YJ4QE6eNG3fQgEZZjzBrRLrNunrsB1HBfpKS" target="_blank">
+      <img src="believe.jpg" alt="Believe Coin">
+      <span>Click here to buy</span>
+    </a>
+  </div>
+
   <h1>ANGEL INVESTOR</h1>
   <p>The myth. The legend. The bankless backer of billion-dollar dreams.</p>
 
